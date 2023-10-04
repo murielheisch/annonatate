@@ -1,0 +1,38 @@
+---
+canvas: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11470978/canvas/7"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Ausstellungsbild",
+            "purpose": "commenting",
+            "creator": {
+                "id": "murielheisch",
+                "name": "murielheisch"
+            },
+            "created": "2023-10-04T14:41:05.607Z",
+            "modified": "2023-10-04T14:41:08.450Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11470978/manifest",
+                "type": "Manifest"
+            },
+            "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11470978/canvas/7",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=267.1158142089844,65.1695556640625,1941.8209533691406,3035.3404541015625"
+        }
+    },
+    "id": "2cb9cecb-05e1-4a87-be98-800544c5c732.json",
+    "motivation": "commenting"
+}

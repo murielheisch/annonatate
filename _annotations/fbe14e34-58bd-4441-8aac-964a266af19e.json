@@ -4,21 +4,27 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Window",
-            "purpose": "commenting",
+            "created": "2024-04-16T10:45:23.836Z",
             "creator": {
                 "id": "murielheisch",
                 "name": "Muriel Heisch"
             },
-            "created": "2024-04-16T10:45:23.836Z",
-            "modified": "2024-04-16T10:45:24.404Z"
+            "modified": "2024-04-16T10:45:24.404Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Window"
         }
     ],
+    "id": "fbe14e34-58bd-4441-8aac-964a266af19e.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=428.67352294921875,21.772258758544922,354.9024658203125,475.47453689575195"
+        },
         "source": {
             "partOf": {
                 "id": "https://murielheisch.github.io/annonatate/img/derivatives/iiif/reflectionsvenice/manifest.json",
@@ -26,13 +32,7 @@ order: 3
             },
             "id": "https://murielheisch.github.io/annonatate/img/derivatives/iiif/reflectionsvenice/canvas/reflectionsvenice-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=428.67352294921875,21.772258758544922,354.9024658203125,475.47453689575195"
         }
     },
-    "id": "fbe14e34-58bd-4441-8aac-964a266af19e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }

@@ -1,0 +1,86 @@
+---
+added: 2024-04-16 10&#58;39&#58;08.267980
+thumbnail: https://murielheisch.github.io/annonatate/img/derivatives/iiif/reflectionsvenice/1/full/150,/0/default.jpg
+title: Reflections - Venice
+user: Muriel Heisch
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://murielheisch.github.io/annonatate/img/derivatives/iiif/reflectionsvenice/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Reflections - Venice"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "rights"
+        ]
+      },
+      "value": {
+        "en": [
+          "Harvard Art Museums/Fogg Museum, Richard and Ronay Menschel Fund for the Acquisition of Photographs"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "View of a canal in Venice."
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://murielheisch.github.io/annonatate/img/derivatives/iiif/reflectionsvenice/canvas/reflectionsvenice-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "1"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://murielheisch.github.io/annonatate/img/derivatives/iiif/reflectionsvenice/1/full/150,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 1759,
+      "width": 2400,
+      "items": [
+        {
+          "id": "https://murielheisch.github.io/annonatate/img/derivatives/iiif/reflectionsvenice/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://murielheisch.github.io/annonatate/img/derivatives/iiif/reflectionsvenice/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://murielheisch.github.io/annonatate/img/derivatives/iiif/reflectionsvenice/1/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1759,
+                "width": 2400,
+                "service": [
+                  {
+                    "id": "https://murielheisch.github.io/annonatate/img/derivatives/iiif/reflectionsvenice/1",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://murielheisch.github.io/annonatate/img/derivatives/iiif/reflectionsvenice/canvas/reflectionsvenice-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

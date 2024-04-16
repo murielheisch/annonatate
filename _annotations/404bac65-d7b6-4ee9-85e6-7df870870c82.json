@@ -1,0 +1,38 @@
+---
+canvas: "https://murielheisch.github.io/annonatate/img/derivatives/iiif/reflectionsvenice/canvas/reflectionsvenice-1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Boat",
+            "purpose": "commenting",
+            "creator": {
+                "id": "murielheisch",
+                "name": "Muriel Heisch"
+            },
+            "created": "2024-04-16T10:42:13.069Z",
+            "modified": "2024-04-16T10:42:13.597Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://murielheisch.github.io/annonatate/img/derivatives/iiif/reflectionsvenice/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://murielheisch.github.io/annonatate/img/derivatives/iiif/reflectionsvenice/canvas/reflectionsvenice-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=19.343605041503906,652.8302612304688,496.25337982177734,351.584716796875"
+        }
+    },
+    "id": "404bac65-d7b6-4ee9-85e6-7df870870c82.json",
+    "motivation": "commenting"
+}
